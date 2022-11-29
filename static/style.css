@@ -5,6 +5,9 @@ body {
     padding: 0;
     position: relative;
     padding-bottom: 100px;
+    background-image: url(./imageedit_1_7836965033.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
@@ -32,7 +35,7 @@ nav {
     height: 40px;
     display: flex;
     justify-content: center;
-    background-color: #229954;
+    background-color: #093ed1;
     position: relative;
     top: 0;
     left: 0
@@ -41,7 +44,7 @@ nav {
 nav a {
     margin: auto 0;
     padding: 0 25px;
-    background-color: #229954;
+    background-color: #093ed1;
     color: white;
     text-decoration: none;
 }
@@ -55,7 +58,7 @@ footer {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #229954;
+    background-color: #093ed1;
     color: white;
     position: absolute;
     bottom: 0;
@@ -64,7 +67,7 @@ footer {
 
 a.nav, input.nav, form input.submit {
     border: none;
-    background-color: #229954;
+    background-color: #093ed1;
     border-radius: 3px;
     color: white;
     padding: 10px 15px;
@@ -72,6 +75,9 @@ a.nav, input.nav, form input.submit {
     font-size: 1em;
 }
 
+img {
+    height: 400px;
+}
 div#content {
     width: 100%;
     text-align: center;
@@ -87,7 +93,7 @@ div#items {
 div.card {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s; */
-    border: 1px solid #229954;
+    border: 1px solid #093ed1;
     border-radius: 10px;
     width: 200px;
     height: 200px;
@@ -110,14 +116,14 @@ div.card-content {
 }
 
 div.card-content a {
-    color: #229954;
+    color: #093ed1;
     font-weight: bold;
     text-decoration: none;
     align-self: center;
 }
 
 h1, h2, h3 {
-    color: #229954;
+    color: #093ed1;
     font-family: 'Homemade Apple', cursive;
 }
 
@@ -130,14 +136,14 @@ form {
 }
 
 form fieldset {
-    border: 1px solid #229954;
+    border: 1px solid #093ed1;
     border-radius: 20px;
     padding: 10px 20px;
     width: 100%;
 }
 
 form legend {
-    color: #229954;
+    color: #093ed1;
     text-align: center;
     font-family: 'Homemade Apple', cursive;
 }
@@ -149,7 +155,7 @@ form label {
 }
 
 form input {
-    border: 1px solid #229954;
+    border: 1px solid #093ed1;
     padding: 10px;
     margin: 10px 0;
     max-width: 700px;
